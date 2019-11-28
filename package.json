@@ -1,6 +1,6 @@
 {
   "name": "nillify",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "utility functions to check for null, undefined in javascript projects",
   "main": "./dist/index.js",
   "types": "/dist/index.d.ts",
@@ -21,10 +21,9 @@
     "url": "https://github.com/balab2020/nillify/issues"
   },
   "homepage": "https://github.com/balab2020/nillify#readme",
-  "dependencies": {
-    "typescript": "^3.7.2"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "typescript": "^3.7.2",
     "@types/assert": "^1.4.3",
     "@types/mocha": "^5.2.7",
     "assert": "^2.0.0",
