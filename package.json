@@ -1,0 +1,35 @@
+{
+  "name": "nillify",
+  "version": "0.1.0",
+  "description": "utility functions to check for null, undefined in javascript projects",
+  "main": "./dist/index.js",
+  "types": "/dist/index.d.ts",
+  "scripts": {
+    "clean":"rimraf ./dist",
+    "build": "tsc",    
+    "build:ci":"yarn clean && yarn test && yarn build",
+    "test": "mocha -r ts-node/register src/index.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balab2020/nillify.git"
+  },
+  "keywords": [],
+  "author": "balamuruganb2020@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/balab2020/nillify/issues"
+  },
+  "homepage": "https://github.com/balab2020/nillify#readme",
+  "dependencies": {
+    "typescript": "^3.7.2"
+  },
+  "devDependencies": {
+    "@types/assert": "^1.4.3",
+    "@types/mocha": "^5.2.7",
+    "assert": "^2.0.0",
+    "mocha": "^6.2.2",
+    "rimraf": "^3.0.0",
+    "ts-node": "^8.5.3"
+  }
+}
